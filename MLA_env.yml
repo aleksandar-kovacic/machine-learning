@@ -1,0 +1,27 @@
+name: MLA
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.7
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tensorflow
+  - jupyter_core
+  - jupyter
+  - dask
+  - fastparquet
+  - seaborn
+  - keplergl
+  - geopy
+  - h3-py
+  - reverse_geocoder
+  - country_converter
+prefix: /usr/local/anaconda3/envs/MLA
+
+
+# pip install: global_land_mask
+
+# conda env create -f MLA_env.yml

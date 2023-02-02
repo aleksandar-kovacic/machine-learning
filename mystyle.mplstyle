@@ -1,0 +1,35 @@
+### General plotting style. ###
+## Usage:
+# place this file in:  ~/.matplotlib/stylelib/mystyle.mplstyle
+# then load the plotstyle in python with:  plt.style.use(['mystyle'])
+# a local latex installation is needed
+
+
+## Latex interpreter and font ##
+font.family        : serif
+font.serif         : charter
+text.usetex        : true
+font.size          : 11
+
+# Set axis grid
+axes.grid: True
+grid.color: lightgray
+grid.linestyle: :
+
+# Resolution for png files
+savefig.dpi   : 500
+savefig.bbox  : tight ## 'tight' or 'standard'.
+
+# Set axes ticks #
+xtick.direction : in    ## direction: in, out, or inout
+ytick.direction : in    ## direction: in, out, or inout
+axes.formatter.limits: -3, 4 ## use scientific notation if log10
+                             ## of the axis range is smaller than the
+                             ## first or larger than the second
+
+# Options for legend
+legend.frameon : false
+legend.fontsize : medium
+
+# Set some basic colors
+image.cmap    : jet
